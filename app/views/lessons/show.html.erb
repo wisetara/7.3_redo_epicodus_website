@@ -1,17 +1,5 @@
-<h1><%= @lesson.number %>. <%= @lesson.name %></h1>
+<h1><%= @lesson.name %></h1>
 
 <p>Content: <%= @lesson.content %></p>
 
-<ul>
-  <% @lesson.name.each do |name| %>
-  <li>
-  <%= lesson.name %>
-  <p><a href="/lessons">Return to lesson list</a></p>
-  <p><a href="/lessons/<%= @lesson.id %>/edit">Edit Lesson</a>
-  <p><a href="/lessons/<%= @lesson.id %>"
-      data-confirm="You're sure you want to do this?"
-      data-method="delete"
-      rel="nofollow">Delete Lesson</a></p>
-    </li>
-  <% end %>
-</ul>
+<p><a href="/">Go Back Before it's Too Late!</a></p>
