@@ -10,3 +10,10 @@
   <p><textarea input id="lesson_contact" name="content" type="text" rows="30" cols="88"><%=@lesson.content%></textarea></p>
   <button>Update Lesson</button>
 </form>
+
+  <p><a href="/lessons/<%= @lesson.id %>"
+      data-confirm="You're sure you want to do this?"
+      data-method="delete"
+      rel="nofollow">Delete Lesson</a></p>
+
+<p><a href="/lessons">Return to lesson list</a></p>
